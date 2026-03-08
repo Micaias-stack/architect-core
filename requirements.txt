@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-httpx
-motor
+httpx[http2]
+groq
