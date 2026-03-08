@@ -1,0 +1,10 @@
+architect-core/
+├── app/
+│   ├── main.py          # Coração do Sistema (FastAPI + Orquestração)
+│   ├── core/
+│   │   └── security.py  # Evasão, Proxies e JWT
+│   └── database/
+│       └── mongodb.py   # Conexão Assíncrona (Motor)
+├── .gitignore           # Protege sua chave API e arquivos inúteis
+├── README.md            # Manual de instruções do Arquiteto
+└── requirements.txt     # Bibliotecas para instalar (pip install)
